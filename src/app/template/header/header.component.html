@@ -1,14 +1,21 @@
-<nav class="navbar navbar-dark bg-dark">
-  <div class="container">
-  <div class="col align-self-end">
-    <div class="row">
-  <nav class="nav" >
-    <a class="nav-link active" aria-current="page" href="#"></a>
-    <a class="nav-link" routerLink="/login">login</a>
-    <a class="nav-link" routerLink="/cadastro">cadastro</a>
-  </nav>
-</div>
-</div>
-</div>
-</nav>
 
+
+<nav class="navbar navbar-expand"  style="background-color: #04504c;">
+  <div class="container-fluid">
+    <a class="navbar-brand navbar" href="#">
+      <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      <h5 class="h5">Espaço Aura</h5>
+    </a>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+      <a routerLink="/login">
+        <button class="btn btn-warning me-md-2 " style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="button">Login</button>
+      </a>
+      <a routerLink="/cadastro">
+        <button class="btn btn-warning me-md-2 " style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" type="button" target="blank" >Cadastrar</button>
+      </a>
+    </div>
+  </div>
+</nav>
