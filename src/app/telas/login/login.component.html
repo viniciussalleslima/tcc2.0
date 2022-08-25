@@ -1,12 +1,13 @@
-<div class="box">
-<div class="row">
+
 <form>
   <fieldset>
     <legend><br>Login<br></legend>
  <div class ="form">
   <div class="form-control">
-    <label for="input-success" class="col-form-label">Email</label>
-    <input type="email" class="form-control" id="email" required>
+    <label for="email" class="email">Email</label>
+    <input type="email" class="campo" id="email" required>
+
+
     <i class="bi-check-circle">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="acerto" viewBox="0 0 16 16">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -24,8 +25,10 @@
 
   <div class ="form">
     <div class="form-control">
-    <label for="imput-erro" class="col-form-label">Senha</label>
-    <input type="password" class="form-control" id="senha" required>
+    <label for="senha" class="senha">Senha</label>
+    <input type="password" class="campo" id="senha" required>
+
+
     <i class="bi-check-circle">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="acerto" viewBox="0 0 16 16">
         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -41,11 +44,9 @@
   </div>
   </div>
   <br>
-  <a routerLink="/userinfo">
   <button type="submit" class="btn btn-primary">Entrar</button>
+  <a routerLink="/userinfo">
 </a>
 </fieldset>
 </form>
-</div>
-</div>
 <br>
